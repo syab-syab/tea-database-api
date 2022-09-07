@@ -12,7 +12,7 @@ app.use(function(req, res, next) {
 });
 
 // 
-app.get('/', (req, res) => {
+app.get('/teas', (req, res) => {
   res.json(teas);
 });
 
